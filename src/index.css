@@ -107,7 +107,7 @@ header .cart span{
   border-radius: 5px;
 }
 .producto:hover{
-border: 6px solid #08a05c55;
+border: 6px solid #252525;
 }
 .producto__img img{
   width: 310px;
@@ -168,4 +168,21 @@ font-weight: 700;
 }
 .buttom div a:hover{
   color: white;
+}
+
+
+/*---INICIO---*/
+.inicio{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 9rem;
+}
+
+.inicio h1{
+  font-weight: 2.5rem;
+  color: #08a05c;
+}
+
+.inicio img{
+  width: 100%;
 }

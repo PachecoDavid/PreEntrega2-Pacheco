@@ -1,24 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Evangel  from "../../imagenes/Evangel.png";
 
 export const Header = () => {
   return (
     
   <header>
-<a href="#">
+<Link to="/">
 <div className="logo">
 <img src={Evangel} alt="logo" width="150"/>
 </div>
-</a>
+</Link>
 
 <ul>
 <li>
-    <a href="#"> INICIO </a>
+    <Link to="/"> INICIO </Link>
 </li>
 
 <li>
-<a href="#">PRODUCTOS</a>
+<Link to="/productos">PRODUCTOS</Link>
 </li>
 </ul>
 
