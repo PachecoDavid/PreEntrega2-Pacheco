@@ -3,7 +3,9 @@ import { Header } from "./components/Header";
 import 'boxicons';
 import { BrowserRouter as Router } from "react-router-dom";
 import {Paginas} from "./components/Paginas";
-import { DataProvider } from "./context/Dataprovider"
+import { DataProvider } from "./context/Dataprovider";
+import { Carrito } from "./components/Carrito";
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
     <div className="App">
      <Router>
      <Header />
+     <Carrito />
      <Paginas />
      </Router>
      
